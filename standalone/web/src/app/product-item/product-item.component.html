@@ -1,0 +1,27 @@
+<div class="col-md-3 col-sm-6">
+	<div class="dimusic-ui dimusic-ui-three">
+		<!-- Hot tag -->
+		<span *ngIf=product.isNew class="dimusic-hot bg-green">New</span>
+		<div class="img-container">
+		<!-- Product Image -->
+		<a href="#"><img class="img-responsive" src="assets/images/{{product.image}}" alt="" /></a>
+		</div>
+							<!-- product details -->
+		<div class="product-details">
+			<!-- product title -->
+			<h4>
+			<a href="#">{{product.name}}</a> <span class="pull-right red">$1</span></h4>
+			<div class="clearfix"></div>
+			<hr />
+			<!-- dimusic button -->
+			<a href="#" class="btn btn-lblue pull-left" (click)='addToBasket(product.name)'>Add to cart</a>
+			<!-- Media icon -->
+			<span class="p-media pull-right">
+				<a href="#" class="b-tooltip" data-placement="top" title="{{product.facebook[0]}}"><i class="fa fa-heart lblue"></i></a>&nbsp;
+				<a href="#" class="b-tooltip" data-placement="top" title="{{product.facebook[1]}}"><i class="fa fa-share-alt lblue"></i></a>&nbsp;
+				<a href="#" class="b-tooltip" data-placement="top" title="{{product.facebook[2]}}"><i class="fa fa-paper-plane-o lblue"></i></a>
+			</span>
+									<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
