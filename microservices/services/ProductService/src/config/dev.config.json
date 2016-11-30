@@ -1,0 +1,25 @@
+{
+  "settings": [
+    {
+      "name": "queueLength",
+      "value": 10
+    },
+    {
+      "name": "baseUri",
+      "value": "http://127.0.0.1:9000/"
+    },
+    {
+      "name": "clusterAccessKey",
+      "value": "lksjdf982734"
+    },
+    {
+      "name":"corsWhitelist",
+      "value":["*"]
+    },
+    {
+      "name":"secId",
+      "value":"Z74569-3bf451-78f25-899584-4be5672fd89f6"
+    }
+
+  ]
+}

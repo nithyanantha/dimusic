@@ -1,0 +1,45 @@
+{
+  "settings": [
+    {
+      "name": "queueLength",
+      "value": 10
+    },
+    {
+      "name":"obeyTopicList",
+      "value":"false"
+    },
+    {
+      "name": "baseUri",
+      "value": "http://127.0.0.1:9000/"
+    },
+    {
+      "name": "clusterAccessKey",
+      "value": "lksjdf982734"
+    },
+    {
+      "name":"zookeeperhost",
+      "value":"127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183"
+    },
+    {
+      "name":"TopicList",
+      "value":[{"business":"ukghsweb","event":"pageload","channel":"web","zone":"productByList"}]
+    },
+    {
+      "name":"corsWhitelist",
+      "value":["*"]
+    },
+    {
+      "name":"secId",
+      "value":"f1731729-3bf1-4f25-9584-4befd2fd89f6"
+    },
+    {
+      "name":"awsRegion",
+      "value":"eu-west-1"
+    },
+    {
+      "name":"businessList",
+      "value":["ukghsweb","ukghsapp","gmo"]
+    }
+
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "tesco_mapi_orchestration_api",
+  "version": "0.0.1",
+  "description": "Product API for DI Music App @nithya.io ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "author": "Nithyanantha Babu @nithya.io",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "bunyan": "^1.8.0",
+    "bunyan-format": "^0.2.1",
+    "cluster-service": "^2.0.0-alpha4",
+    "cors": "^2.7.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-eslint": "^6.0.2",
+    "babel-preset-es2015": "^6.6.0",
+    "grunt": "^0.4.5",
+    "grunt-auto-install": "^0.3.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-npm-install": "^0.3.0",
+    "load-grunt-tasks": "^3.4.1",
+    "mockery": "~1.7.0",
+    "chai": "~3.5.0",
+    "sinon": "~1.17.4",
+    "mocha": "~2.4.5",
+    "rootpath": "~0.1.2",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-mocha-istanbul": "~4.0.2",
+    "istanbul": "~0.4.3"
+  }
+}
