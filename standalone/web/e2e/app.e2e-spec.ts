@@ -1,10 +1,10 @@
-import { DIMusicWebPage } from './app.po';
+import { DimusicWebPage } from './app.po';
 
 describe('dimusic-web App', function() {
-  let page: DIMusicWebPage;
+  let page: DimusicWebPage;
 
   beforeEach(() => {
-    page = new DIMusicWebPage();
+    page = new DimusicWebPage();
   });
 
   it('should display message saying app works', () => {
